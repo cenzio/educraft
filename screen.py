@@ -884,6 +884,7 @@ class Window(pyglet.window.Window):
         """
         vector = self.get_sight_vector()
         block = self.model.hit_test(self.position, vector)[0]
+        
         if block:
             x, y, z = block
             vertex_data = cube_vertices(x, y, z, 0.51)
@@ -897,6 +898,7 @@ class Window(pyglet.window.Window):
 
         """
         x, y, z = self.position
+        
         self.label.text = '%02d (%.2f, %.2f, %.2f) %d / %d' % (
             pyglet.clock.get_fps(), x, y, z,
             len(self.model._shown), len(self.model.world))
