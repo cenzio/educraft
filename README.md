@@ -48,9 +48,9 @@ The API could contain functionality for the following:
 
 ```shell
 pip install pyglet
-git clone https://github.com/fogleman/Minecraft.git
+git clone https://github.com/cenzio/educraft.git
 cd Minecraft
-python main.py
+python game.py
 ```
 
 ### Mac
@@ -58,7 +58,7 @@ python main.py
 On Mac OS X, you may have an issue with running Pyglet in 64-bit mode. Try running Python in 32-bit mode first:
 
 ```shell
-arch -i386 python main.py
+arch -i386 python game.py
 ```
 
 If that doesn't work, set Python to run in 32-bit mode by default:
