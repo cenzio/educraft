@@ -1,16 +1,25 @@
-# Minecraft
+# Educraft
+an educationial tool inspired by [Foglemans project Minecraft](https://github.com/fogleman/Minecraft)
 
-Simple Minecraft-inspired demo written in Python and Pyglet.
+Due to the inactivity on the original repo, I've decided instead of making a fork that I'd rather create my new repository and try rebuilding the project for educational purposes.
+
+This project could not have been done without Foglemans initial repository, so before checking mine out go show some love to his!  
+
+## Details
+
+Below is a video of Foglemans original project
 
 http://www.youtube.com/watch?v=kC3lwK631X8
 
-**Like this project?**
+**Like this or the original project?**
 
-You might also like my other Minecraft clone written in C using modern OpenGL (GL shader language). It performs better, has better terrain generation and saves state to a sqlite database. See here:
+You might also like his other Minecraft clone written in C using modern OpenGL (GL shader language). It performs better, has better terrain generation and saves state to a sqlite database. See here:
 
 https://github.com/fogleman/Craft
 
 ## Goals and Vision
+
+***These were originally his goals, but i'm keeping them for now to keep progress of what he wanted for his original project.***
 
 I would like to see this project turn into an educational tool. Kids love Minecraft and Python is a great first language.
 This is a good opportunity to get children excited about programming.
